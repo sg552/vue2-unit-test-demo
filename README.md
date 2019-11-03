@@ -1,24 +1,6 @@
-# test_vue_test2
+# 一个演示单元测试的例子
 
-## Project setup
-```
-npm install
-```
+1. 务必使用 wrapper.vm 来访问data, methods
+2. shallowMount的作用等同于 rspec中的 render_views
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+node: 10.16.3
